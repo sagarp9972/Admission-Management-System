@@ -1,4 +1,4 @@
-****# 🎓 Admission Management System****************************
+# 🎓 Admission Management System
 
 A full-stack web application to manage student admissions,
 employees, courses, and batches for an institute.
