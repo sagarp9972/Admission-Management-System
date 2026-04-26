@@ -19,18 +19,19 @@ employees, courses, and batches for an institute.
 ## 📁 Project Structure
 
 admission_system/
+├── README.md          ← documentation
 ├── backend/
-│   ├── main.py            ← FastAPI app + all API endpoints
-│   ├── database.py        ← SQLite connection + auto DB creation
-│   ├── models.py          ← Pydantic request models
-│   ├── create_db.py       ← Manual database creation script
-│   ├── fix_batches.py     ← Fix duplicate batches script
-│   ├── reset_password.py  ← Reset admin password script
-│   ├── test_db.py         ← Test database connection script
-│   ├── view_data.py       ← View all database data script
-│   └── admission.db       ← SQLite database file (auto created)
+│   ├── main.py
+│   ├── database.py
+│   ├── models.py
+│   ├── create_db.py
+│   ├── fix_batches.py
+│   ├── reset_password.py
+│   ├── test_db.py
+│   ├── view_data.py
+│   └── admission.db
 └── frontend/
-└── app.py             ← Streamlit UI
+    └── app.py
 
 ---
 
